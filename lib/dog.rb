@@ -1,12 +1,8 @@
 # Your code goes here!
 
 class Dog
-  
-  attr_reader :name
 
-  def initialize(name)
-    @name = name
-  end
+  attr_reader :name
 
   def bark
     puts "woof!"
